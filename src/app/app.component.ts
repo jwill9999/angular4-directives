@@ -10,4 +10,5 @@ export class AppComponent {
   odd = [1,  3,  5];
   even = [ 2,  4, ];
   onlyOdd = false;
+  value: number = 1000;
 }

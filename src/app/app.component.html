@@ -24,5 +24,10 @@
                 <p>Only odd</p>
             </ng-template>
         </div>
+        <div [ngSwitch]="value">
+            <p *ngSwitchCase="10">This is 10</p>
+            <p *ngSwitchCase="100">This is 100</p>
+            <p *ngSwitchDefault>This is the default case</p>
+        </div>
     </div>
 </div>
